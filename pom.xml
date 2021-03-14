@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ignaciogg</groupId>
 	<artifactId>event-store-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>event-store-demo</name>
 	<description>Demo project for EventStoreDB</description>
 	<properties>
@@ -26,6 +26,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.eventstore</groupId>
+			<artifactId>db-client-java</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
